@@ -23,7 +23,7 @@ class App extends Component {
                     Countdown to {this.state.deadline}
                 </div>
                 <Clock deadline={this.state.deadline}/>
-                <Form inline={true}>
+                <Form inline={true} className="App-form">
                     <FormControl 
                         className="Deadline-input"
                         placeholder="new date"
